@@ -1,0 +1,150 @@
+.controlPanel {
+    margin-left: auto;
+    margin-right: 5%;
+    position: fixed;
+    top: 10.1rem;
+    z-index: 100;
+    text-align: center;
+    top: 0;
+    right: 0;
+    margin-top: 5%;
+    width: 10%;
+}
+
+@media screen and (max-width: 968px) {
+    .controlPanel {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .controlPanel {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 3164px) {
+    .controlPanel {
+        margin-left: auto;
+    }
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+}
+
+.light-mode hr {
+    border-color: #000000;
+}
+
+.dark-mode {
+    background-color: #111111;
+    color: #ffffff;
+    margin-bottom: 164%;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 50%;
+}
+
+.list-layout .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.list-layout .card img {
+    width: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.dark-mode .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.light-mode .card {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000000;
+}
+
+.containerStyle {
+    display: flex;
+    flex-direction: column;
+    align-Items: center;
+    background-Color: #111111;
+    min-Height: 100vh;
+}
+
+.controlPanelStyle {
+    margin-Left: 100rem;
+    position: sticky;
+    top: 10.1rem;
+    z-Index: 100;
+    color: white;
+    text-Align: center;
+}
+
+.contentContainerStyle {
+    display: inline-flex;
+    flex-Direction: column;
+    align-Items: center;
+    width: 100%;
+    padding: 1rem;
+    background-Color: transparent;
+    margin-bottom: 100rem;
+}
+
+.cardContainerStyle {
+    display: grid;
+    grid-Template-Columns: 1fr;
+    justify-Items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.titleStyle {
+    font-Size: 1.5rem;
+    font-Weight: bold;
+    margin-Bottom: 0.5rem;
+}
+
+.cardStyle {
+    background-Color: rgba(0, 0, 0, 0.5);
+    margin-Bottom: 1rem;
+}
+
+.topStylewarning-background {
+    background-color: yellow;
+}
+
+.topStylesecondary-background {
+    background-color: purple;
+    color: white;
+}
+
+.topStyleprimary-background {
+    background-color: blue;
+    color: white;
+}
+
+.topStylesuccess-background {
+    background-color: green;
+    color: white;
+}
+
+.topStyledanger-background {
+    background-color: red;
+    color: white;
+}

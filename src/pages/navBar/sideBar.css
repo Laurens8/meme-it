@@ -1,0 +1,12 @@
+@media screen and (max-width: 1000px) {
+    .container {
+        display: none;
+        transition: 'width 0.3s';
+    }
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #ffd300;
+}
